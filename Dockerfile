@@ -20,4 +20,4 @@ ENV PYTHONUNBUFFERED=1
 #Expose Streamlit default port
 EXPOSE 8501
 
-CMD ["streamlit", "run", "Scripts/app.py"]
+CMD ["streamlit", "run", "app/streamlit_app.py"]
