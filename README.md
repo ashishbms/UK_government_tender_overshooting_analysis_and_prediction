@@ -1,5 +1,3 @@
-
-```markdown
 # 🧠 Tender Overshoot Prediction — MLOps Project
 
 A machine learning and MLOps pipeline to predict whether UK government e-tenders will **overshoot their estimated cost** based on tender metadata and descriptions. The system includes:
@@ -16,11 +14,10 @@ A machine learning and MLOps pipeline to predict whether UK government e-tenders
 ## 🚀 Project Structure
 
 ```
-
 tender-overshoot-mlops/
 │
 ├── app/
-│   └── streamlit\_app.py       # Streamlit UI
+│   └── streamlit_app.py       # Streamlit UI
 │
 ├── data/
 │   └── processed/             # Cleaned dataset used for training/inference
@@ -30,7 +27,7 @@ tender-overshoot-mlops/
 │
 ├── scripts/
 │   ├── preprocess.py          # Data cleaning and transformation pipeline
-│   └── train\_model.py         # Model training and MLflow tracking
+│   └── train_model.py         # Model training and MLflow tracking
 │
 ├── mlruns/                    # MLflow artifacts and experiment logs
 │
@@ -38,8 +35,7 @@ tender-overshoot-mlops/
 ├── Dockerfile                 # Docker setup for containerizing the app
 ├── render.yaml                # Render deployment configuration (if used)
 └── README.md                  # You're here!
-
-````
+```
 
 ---
 
@@ -67,7 +63,7 @@ Government e-tenders often exceed their initial cost estimates. This project hel
 ```bash
 git clone https://github.com/KarthikGanesh1357/UK_government_tenders_prediction.git
 cd UK_government_tenders_prediction
-````
+```
 
 ### 2. Set Up Virtual Environment
 
@@ -145,5 +141,3 @@ Then open [http://localhost:5000](http://localhost:5000) to view experiment logs
 ## 📜 License
 
 This project is licensed under the MIT License.
-
-```
