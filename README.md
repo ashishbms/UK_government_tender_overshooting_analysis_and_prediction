@@ -61,7 +61,7 @@ Government e-tenders often exceed their initial cost estimates. This project hel
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KarthikGanesh1357/UK_government_tenders_prediction.git
+https://github.com/ashishbms/UK_government_tender_overshooting_analysis_and_prediction.git
 cd UK_government_tenders_prediction
 ```
 
@@ -134,10 +134,12 @@ Then open [http://localhost:5000](http://localhost:5000) to view experiment logs
 
 ## 🙌 Contributors
 
-* **Karthik Ganesh** — Project Author and MLOps Pipeline Developer
+* **Karthik Ganesh**
+* **A Ashish**
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License.
+
